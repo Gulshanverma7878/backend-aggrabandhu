@@ -77,7 +77,7 @@ app.use('/api/birth', BirthToday);
 app.use('/api/notification', NotificationRoute);
 
 app.get('/', (req, res) => {
-  res.send('API RUNNING.........');
+  res.send('mona fix it.........');
 });
 
 app.use((err, req, res, next) => {
